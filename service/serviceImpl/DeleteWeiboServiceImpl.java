@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @author Liu Jinfeng
  *
  */
-@Service
+@Service("DeleteWeiboService")
 public class DeleteWeiboServiceImpl implements DeleteWeiboService {
 	
 	@Autowired
